@@ -8,14 +8,9 @@
 <title>ACM VIT-AP | Meet &amp; Greet</title>
 <style>
   *{box-sizing:border-box}
-  html,body{margin:0;padding:0;background:#edf4fb}
+  html,body{margin:0;padding:0;background:#ffffff}
   body{font-family:Arial,Helvetica,sans-serif;color:#0a2540}
-  .preview-toolbar{width:min(100% - 24px,760px);margin:16px auto 12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-  .toolbar-copy{font-size:13px;color:#47637f;line-height:1.5}
-  .copy-button{appearance:none;border:0;background:#0757bd;color:#fff;padding:12px 18px;border-radius:9px;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(7,87,189,.18)}
-  .copy-button:hover{background:#064a9f}
-  .preview-frame{margin:0 auto 24px;width:min(100%,640px);padding:0 8px 18px}
-  .preview-label{font-size:11px;letter-spacing:1.3px;text-transform:uppercase;color:#617b96;margin:0 0 8px 4px}
+  .preview-frame{margin:0 auto;width:100%;max-width:640px;padding:0}
   .email-card{width:100%;max-width:600px;margin:0 auto;border-collapse:separate;border-spacing:0;background:#fff;border:1px solid #d7e6f5;border-radius:14px;overflow:hidden;box-shadow:0 10px 32px rgba(10,37,64,.10)}
   .email-card img{display:block;border:0;outline:none;text-decoration:none}
   .desktop-hero{display:table;width:100%}
@@ -25,8 +20,6 @@
   .desktop-features{display:table;width:100%}
   .mobile-features{display:none!important;mso-hide:all;max-height:0;overflow:hidden}
   @media screen and (max-width:600px){
-    .preview-frame{padding:0}
-    .preview-label{margin-left:12px}
     .email-card{border-radius:0;border-left:0;border-right:0;box-shadow:none}
     .desktop-hero{display:none!important;max-height:0!important;overflow:hidden!important;mso-hide:all!important}
     .mobile-hero{display:table!important;max-height:none!important;overflow:visible!important;width:100%!important}
@@ -38,19 +31,14 @@
 </style>
 </head>
 <body>
-<div class="preview-toolbar">
-  <div class="toolbar-copy"><strong>ACM VIT-AP Meet &amp; Greet</strong><br>Responsive email preview · desktop and mobile layouts</div>
-  <button class="copy-button" id="copyInvite" type="button">Copy invitation for Gmail</button>
-</div>
 <div class="preview-frame">
-  <p class="preview-label">Email preview</p>
   <table id="email-card" class="email-card" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="width:100%;max-width:600px;margin:0 auto;border-collapse:separate;border-spacing:0;background:#ffffff;border:1px solid #d7e6f5;border-radius:14px;overflow:hidden;color:#0a2540;font-family:Arial,Helvetica,sans-serif;">
     <tbody>
       <!-- Blue ACM masthead: logo and chapter presentation are centered together. -->
       <tr><td height="5" bgcolor="#38bdf8" style="height:5px;line-height:5px;font-size:1px;background:#38bdf8;">&nbsp;</td></tr>
       <tr>
         <td align="center" bgcolor="#0757bd" style="padding:17px 18px 16px;background:#0757bd;text-align:center;color:#ffffff;">
-          <img src="assets/acm-vitap-chapter-logo.png" width="68" height="68" alt="ACM Chapter, VIT-AP University" style="display:block;width:68px;height:68px;max-width:68px;margin:0 auto 8px;border:0;">
+          <img src="https://litheeswar123.github.io/meet_greet/assets/acm-vitap-chapter-logo.png" width="68" height="68" alt="ACM Chapter, VIT-AP University" style="display:block;width:68px;height:68px;max-width:68px;margin:0 auto 8px;border:0;">
           <p style="margin:0;color:#ffffff;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-align:center;">ACM STUDENT CHAPTER · VIT-AP</p>
           <p style="margin:3px 0 0;color:#c7e5ff;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;font-weight:800;letter-spacing:3.5px;text-transform:uppercase;text-align:center;">PRESENTS</p>
         </td>
@@ -67,7 +55,7 @@
             </td>
             <td width="34%" align="right" valign="top" style="width:34%;padding:0;">
               <p style="margin:0 0 5px;color:#173d66;font-size:8px;line-height:1.55;font-weight:700;letter-spacing:1.5px;text-align:right;text-transform:uppercase;">PEOPLE<br>IDEAS<br>TECHNOLOGY<br><strong style="color:#0757bd;">TOGETHER</strong></p>
-              <img src="assets/blue-geometry.png" width="178" alt="ACM blue geometric artwork" style="display:block;width:178px;max-width:100%;height:auto;border:0;">
+              <img src="https://litheeswar123.github.io/meet_greet/assets/blue-geometry.png" width="178" alt="ACM blue geometric artwork" style="display:block;width:178px;max-width:100%;height:auto;border:0;">
             </td>
           </tr>
         </table>
@@ -81,7 +69,7 @@
           </td></tr>
           <tr><td align="right" style="padding:5px 0 0;height:auto;">
             <p style="margin:0 0 5px;color:#173d66;font-size:8px;line-height:1.5;font-weight:700;letter-spacing:1.5px;text-align:right;text-transform:uppercase;">PEOPLE&nbsp; · &nbsp;IDEAS&nbsp; · &nbsp;TECHNOLOGY&nbsp; · &nbsp;TOGETHER</p>
-            <img src="assets/blue-geometry.png" width="170" alt="ACM blue geometric artwork" style="display:block;width:170px;max-width:52%;height:auto;margin:0 0 0 auto;border:0;">
+            <img src="https://litheeswar123.github.io/meet_greet/assets/blue-geometry.png" width="170" alt="ACM blue geometric artwork" style="display:block;width:170px;max-width:52%;height:auto;margin:0 0 0 auto;border:0;">
           </td></tr>
         </table>
         <p style="margin:8px 0 0;color:#173d66;font-size:9px;line-height:1.7;font-weight:700;letter-spacing:1.8px;text-align:right;text-transform:uppercase;">CONNECT&nbsp;&nbsp; COLLABORATE&nbsp;&nbsp; CREATE</p>
@@ -97,47 +85,47 @@
         <table class="desktop-details" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:table;width:100%;border-collapse:collapse;border-top:1px solid #d7e8f8;border-bottom:1px solid #d7e8f8;">
           <tr>
             <td width="33.333%" valign="middle" style="width:33.333%;padding:10px 8px;border-right:1px solid #cfe3f8;">
-              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="42" valign="middle" style="width:42px;padding-right:7px;"><img src="assets/date-icon.png" width="34" height="39" alt="Calendar" style="display:block;width:34px;height:39px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:24px;line-height:1;font-weight:900;">22</p><p style="margin:3px 0 0;color:#173d66;font-size:10px;line-height:1.4;letter-spacing:1.3px;">OCT 2026</p><p style="margin:1px 0 0;color:#173d66;font-size:9px;line-height:1.4;letter-spacing:1.5px;">THURSDAY</p></td></tr></table>
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="42" valign="middle" style="width:42px;padding-right:7px;"><img src="https://litheeswar123.github.io/meet_greet/assets/date-icon.png" width="34" height="39" alt="Calendar" style="display:block;width:34px;height:39px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:24px;line-height:1;font-weight:900;">22</p><p style="margin:3px 0 0;color:#173d66;font-size:10px;line-height:1.4;letter-spacing:1.3px;">OCT 2026</p><p style="margin:1px 0 0;color:#173d66;font-size:9px;line-height:1.4;letter-spacing:1.5px;">THURSDAY</p></td></tr></table>
             </td>
             <td width="33.333%" valign="middle" style="width:33.333%;padding:10px 8px;border-right:1px solid #cfe3f8;">
-              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="42" valign="middle" style="width:42px;padding-right:7px;"><img src="assets/time-icon.png" width="34" height="39" alt="Clock" style="display:block;width:34px;height:39px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.5px;">TIME</p><p style="margin:3px 0 0;color:#0a2540;font-size:12px;line-height:1.35;font-weight:800;white-space:nowrap;">11:00 AM</p><p style="margin:0;color:#0a2540;font-size:12px;line-height:1.35;font-weight:800;white-space:nowrap;">– 1:00 PM</p></td></tr></table>
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="42" valign="middle" style="width:42px;padding-right:7px;"><img src="https://litheeswar123.github.io/meet_greet/assets/time-icon.png" width="34" height="39" alt="Clock" style="display:block;width:34px;height:39px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.5px;">TIME</p><p style="margin:3px 0 0;color:#0a2540;font-size:12px;line-height:1.35;font-weight:800;white-space:nowrap;">11:00 AM</p><p style="margin:0;color:#0a2540;font-size:12px;line-height:1.35;font-weight:800;white-space:nowrap;">– 1:00 PM</p></td></tr></table>
             </td>
             <td width="33.333%" valign="middle" style="width:33.333%;padding:10px 8px;">
-              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="39" valign="middle" style="width:39px;padding-right:6px;"><img src="assets/venue-icon.png" width="31" height="39" alt="Location" style="display:block;width:31px;height:39px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.3px;">VENUE</p><p style="margin:3px 0 0;color:#0a2540;font-size:10px;line-height:1.35;font-weight:800;">TO BE<br>ANNOUNCED</p></td></tr></table>
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr><td width="39" valign="middle" style="width:39px;padding-right:6px;"><img src="https://litheeswar123.github.io/meet_greet/assets/venue-icon.png" width="31" height="39" alt="Location" style="display:block;width:31px;height:39px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.3px;">VENUE</p><p style="margin:3px 0 0;color:#0a2540;font-size:10px;line-height:1.35;font-weight:800;">TO BE<br>ANNOUNCED</p></td></tr></table>
             </td>
           </tr>
         </table>
         <!-- Mobile event details: same poster icons and wording in a stacked layout. -->
         <table class="mobile-details" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:100%;border-collapse:collapse;border-top:1px solid #d7e8f8;border-bottom:1px solid #d7e8f8;">
-          <tr><td style="padding:10px 8px;border-bottom:1px solid #d7e8f8;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="48" style="width:48px;padding-right:10px;"><img src="assets/date-icon.png" width="36" height="42" alt="Calendar" style="display:block;width:36px;height:42px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:24px;line-height:1;font-weight:900;">22</p><p style="margin:3px 0 0;color:#173d66;font-size:10px;line-height:1.4;letter-spacing:1.3px;">OCT 2026 · THURSDAY</p></td></tr></table></td></tr>
-          <tr><td style="padding:10px 8px;border-bottom:1px solid #d7e8f8;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="48" style="width:48px;padding-right:10px;"><img src="assets/time-icon.png" width="36" height="42" alt="Clock" style="display:block;width:36px;height:42px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.5px;">TIME</p><p style="margin:2px 0 0;color:#0a2540;font-size:14px;line-height:1.4;font-weight:800;">11:00 AM – 1:00 PM</p></td></tr></table></td></tr>
-          <tr><td style="padding:10px 8px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="48" style="width:48px;padding-right:10px;"><img src="assets/venue-icon.png" width="33" height="42" alt="Location" style="display:block;width:33px;height:42px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.5px;">VENUE</p><p style="margin:2px 0 0;color:#0a2540;font-size:13px;line-height:1.4;font-weight:800;">TO BE ANNOUNCED</p></td></tr></table></td></tr>
+          <tr><td style="padding:10px 8px;border-bottom:1px solid #d7e8f8;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="48" style="width:48px;padding-right:10px;"><img src="https://litheeswar123.github.io/meet_greet/assets/date-icon.png" width="36" height="42" alt="Calendar" style="display:block;width:36px;height:42px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:24px;line-height:1;font-weight:900;">22</p><p style="margin:3px 0 0;color:#173d66;font-size:10px;line-height:1.4;letter-spacing:1.3px;">OCT 2026 · THURSDAY</p></td></tr></table></td></tr>
+          <tr><td style="padding:10px 8px;border-bottom:1px solid #d7e8f8;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="48" style="width:48px;padding-right:10px;"><img src="https://litheeswar123.github.io/meet_greet/assets/time-icon.png" width="36" height="42" alt="Clock" style="display:block;width:36px;height:42px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.5px;">TIME</p><p style="margin:2px 0 0;color:#0a2540;font-size:14px;line-height:1.4;font-weight:800;">11:00 AM – 1:00 PM</p></td></tr></table></td></tr>
+          <tr><td style="padding:10px 8px;"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="48" style="width:48px;padding-right:10px;"><img src="https://litheeswar123.github.io/meet_greet/assets/venue-icon.png" width="33" height="42" alt="Location" style="display:block;width:33px;height:42px;border:0;"></td><td valign="middle"><p style="margin:0;color:#173d66;font-size:9px;line-height:1.5;font-weight:800;letter-spacing:1.5px;">VENUE</p><p style="margin:2px 0 0;color:#0a2540;font-size:13px;line-height:1.4;font-weight:800;">TO BE ANNOUNCED</p></td></tr></table></td></tr>
         </table>
       </td></tr>
       <!-- Exact OD badge icon from the poster. -->
       <tr><td align="center" bgcolor="#ffffff" style="padding:0 20px 17px;background:#ffffff;">
         <table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #f2c84b;border-radius:28px;background:#fff8e6;border-collapse:separate;">
-          <tr><td align="center" valign="middle" style="padding:7px 19px;white-space:nowrap;"><table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding:0 12px 0 0;"><img src="assets/od-icon.png" width="26" height="34" alt="OD certificate" style="display:block;width:26px;height:34px;border:0;"></td><td valign="middle" style="color:#0a2540;font-size:16px;line-height:1.2;font-weight:900;letter-spacing:1px;">OD WILL BE PROVIDED</td></tr></table></td></tr>
+          <tr><td align="center" valign="middle" style="padding:7px 19px;white-space:nowrap;"><table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td valign="middle" style="padding:0 12px 0 0;"><img src="https://litheeswar123.github.io/meet_greet/assets/od-icon.png" width="26" height="34" alt="OD certificate" style="display:block;width:26px;height:34px;border:0;"></td><td valign="middle" style="color:#0a2540;font-size:16px;line-height:1.2;font-weight:900;letter-spacing:1px;">OD WILL BE PROVIDED</td></tr></table></td></tr>
         </table>
       </td></tr>
       <!-- Four exact feature icons cropped from the poster. -->
       <tr><td bgcolor="#ffffff" style="padding:0 20px 16px;background:#ffffff;">
         <table class="desktop-features" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:table;width:100%;border-collapse:collapse;border-top:1px solid #d7e8f8;border-bottom:1px solid #d7e8f8;">
           <tr>
-            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;border-right:1px solid #cfe3f8;"><img src="assets/meet-icon.png" width="34" height="35" alt="" style="display:block;width:34px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">MEET<br>THE TEAM</p></td>
-            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;border-right:1px solid #cfe3f8;"><img src="assets/explore-icon.png" width="31" height="35" alt="" style="display:block;width:31px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">EXPLORE<br>INITIATIVES</p></td>
-            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;border-right:1px solid #cfe3f8;"><img src="assets/discover-icon.png" width="33" height="35" alt="" style="display:block;width:33px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">DISCOVER<br>OPPORTUNITIES</p></td>
-            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;"><img src="assets/connect-icon.png" width="32" height="35" alt="" style="display:block;width:32px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">INTERACT<br>&amp; CONNECT</p></td>
+            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;border-right:1px solid #cfe3f8;"><img src="https://litheeswar123.github.io/meet_greet/assets/meet-icon.png" width="34" height="35" alt="" style="display:block;width:34px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">MEET<br>THE TEAM</p></td>
+            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;border-right:1px solid #cfe3f8;"><img src="https://litheeswar123.github.io/meet_greet/assets/explore-icon.png" width="31" height="35" alt="" style="display:block;width:31px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">EXPLORE<br>INITIATIVES</p></td>
+            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;border-right:1px solid #cfe3f8;"><img src="https://litheeswar123.github.io/meet_greet/assets/discover-icon.png" width="33" height="35" alt="" style="display:block;width:33px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">DISCOVER<br>OPPORTUNITIES</p></td>
+            <td width="25%" align="center" valign="top" style="width:25%;padding:10px 4px 9px;"><img src="https://litheeswar123.github.io/meet_greet/assets/connect-icon.png" width="32" height="35" alt="" style="display:block;width:32px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">INTERACT<br>&amp; CONNECT</p></td>
           </tr>
         </table>
         <table class="mobile-features" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="display:none;mso-hide:all;max-height:0;overflow:hidden;width:100%;border-collapse:collapse;border-top:1px solid #d7e8f8;border-bottom:1px solid #d7e8f8;">
           <tr>
-            <td width="50%" align="center" style="width:50%;padding:10px 4px;border-right:1px solid #cfe3f8;border-bottom:1px solid #cfe3f8;"><img src="assets/meet-icon.png" width="34" height="35" alt="" style="display:block;width:34px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">MEET THE TEAM</p></td>
-            <td width="50%" align="center" style="width:50%;padding:10px 4px;border-bottom:1px solid #cfe3f8;"><img src="assets/explore-icon.png" width="31" height="35" alt="" style="display:block;width:31px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">EXPLORE INITIATIVES</p></td>
+            <td width="50%" align="center" style="width:50%;padding:10px 4px;border-right:1px solid #cfe3f8;border-bottom:1px solid #cfe3f8;"><img src="https://litheeswar123.github.io/meet_greet/assets/meet-icon.png" width="34" height="35" alt="" style="display:block;width:34px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">MEET THE TEAM</p></td>
+            <td width="50%" align="center" style="width:50%;padding:10px 4px;border-bottom:1px solid #cfe3f8;"><img src="https://litheeswar123.github.io/meet_greet/assets/explore-icon.png" width="31" height="35" alt="" style="display:block;width:31px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">EXPLORE INITIATIVES</p></td>
           </tr>
           <tr>
-            <td width="50%" align="center" style="width:50%;padding:10px 4px;border-right:1px solid #cfe3f8;"><img src="assets/discover-icon.png" width="33" height="35" alt="" style="display:block;width:33px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">DISCOVER OPPORTUNITIES</p></td>
-            <td width="50%" align="center" style="width:50%;padding:10px 4px;"><img src="assets/connect-icon.png" width="32" height="35" alt="" style="display:block;width:32px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">INTERACT &amp; CONNECT</p></td>
+            <td width="50%" align="center" style="width:50%;padding:10px 4px;border-right:1px solid #cfe3f8;"><img src="https://litheeswar123.github.io/meet_greet/assets/discover-icon.png" width="33" height="35" alt="" style="display:block;width:33px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">DISCOVER OPPORTUNITIES</p></td>
+            <td width="50%" align="center" style="width:50%;padding:10px 4px;"><img src="https://litheeswar123.github.io/meet_greet/assets/connect-icon.png" width="32" height="35" alt="" style="display:block;width:32px;height:35px;margin:0 auto;border:0;"><p style="margin:5px 0 0;color:#173d66;font-size:9px;line-height:1.45;font-weight:700;letter-spacing:.7px;text-transform:uppercase;">INTERACT &amp; CONNECT</p></td>
           </tr>
         </table>
       </td></tr>
@@ -152,7 +140,7 @@
             </td>
             <td width="42%" align="right" valign="middle" style="width:42%;padding:0;">
               <p style="margin:0;color:#173d66;font-size:8px;line-height:1.8;font-weight:800;letter-spacing:1.4px;text-align:right;text-transform:uppercase;">CONNECT<br>COLLABORATE<br>CREATE</p>
-              <img src="assets/footer-orbs.png" width="178" alt="Blue and cyan geometric artwork" style="display:block;width:178px;max-width:100%;height:auto;margin:4px 0 0 auto;border:0;">
+              <img src="https://litheeswar123.github.io/meet_greet/assets/footer-orbs.png" width="178" alt="Blue and cyan geometric artwork" style="display:block;width:178px;max-width:100%;height:auto;margin:4px 0 0 auto;border:0;">
             </td>
           </tr>
           <tr><td colspan="2" align="center" style="padding:6px 0 0;color:#31516f;font-size:8px;line-height:1.8;font-weight:700;letter-spacing:1.1px;text-align:center;text-transform:uppercase;">LEARN&nbsp; · &nbsp;BUILD&nbsp; · &nbsp;SHARE&nbsp; · &nbsp;GROW&nbsp; · &nbsp;BELONG<br>IDEAS&nbsp; · &nbsp;PEOPLE&nbsp; · &nbsp;IMPACT</td></tr>
@@ -162,39 +150,5 @@
     </tbody>
   </table>
 </div>
-<script>
-(function(){
-  const button=document.getElementById('copyInvite');
-  const assetsBase='https://litheeswar123.github.io/meet_greet/assets/';
-  const responsiveStyles=`<style>
-    table{border-collapse:collapse;border-spacing:0;mso-table-lspace:0pt;mso-table-rspace:0pt}
-    img{border:0;outline:none;text-decoration:none}
-    @media screen and (max-width:600px){
-      .desktop-hero{display:none!important;max-height:0!important;overflow:hidden!important;mso-hide:all!important}
-      .mobile-hero{display:table!important;max-height:none!important;overflow:visible!important;width:100%!important}
-      .desktop-details{display:none!important;max-height:0!important;overflow:hidden!important;mso-hide:all!important}
-      .mobile-details{display:table!important;max-height:none!important;overflow:visible!important;width:100%!important}
-      .desktop-features{display:none!important;max-height:0!important;overflow:hidden!important;mso-hide:all!important}
-      .mobile-features{display:table!important;max-height:none!important;overflow:visible!important;width:100%!important}
-    }
-  </style>`;
-  function absolutizeAssets(root){root.querySelectorAll('img').forEach(img=>{const src=img.getAttribute('src')||'';if(src.startsWith('assets/'))img.setAttribute('src',assetsBase+src.slice(7));});}
-  button.addEventListener('click',async function(){
-    const clone=document.getElementById('email-card').cloneNode(true);
-    clone.removeAttribute('id'); clone.style.boxShadow='none'; absolutizeAssets(clone);
-    const html='<!doctype html><html><head><meta charset="utf-8">'+responsiveStyles+'</head><body style="margin:0;padding:0;background:#ffffff;font-family:Arial,Helvetica,sans-serif;">'+clone.outerHTML+'</body></html>';
-    const plain='ACM STUDENT CHAPTER · VIT-AP PRESENTS\nA COMMUNITY BEYOND CLASSROOMS\nMEET & GREET\nSAME CURIOSITY · BIGGER TOGETHER\n\nAn interactive session to meet the ACM community, explore opportunities, and be a part of something bigger.\n\n22 OCT 2026 · THURSDAY\n11:00 AM – 1:00 PM\nVENUE TO BE ANNOUNCED\nOD WILL BE PROVIDED\n\nMEET THE TEAM · EXPLORE INITIATIVES · DISCOVER OPPORTUNITIES · INTERACT & CONNECT\n\nMORE THAN TECHNOLOGY · A STRONGER COMMUNITY\nSTUDENTS. COMMUNITY. REAL IMPACT.\nCONNECT · COLLABORATE · CREATE\nLEARN · BUILD · SHARE · GROW · BELONG\nIDEAS · PEOPLE · IMPACT';
-    try{
-      if(navigator.clipboard&&window.ClipboardItem){
-        await navigator.clipboard.write([new ClipboardItem({'text/html':new Blob([html],{type:'text/html'}),'text/plain':new Blob([plain],{type:'text/plain'})})]);
-        button.textContent='Copied — paste into Gmail';setTimeout(()=>button.textContent='Copy invitation for Gmail',2500);
-      }else{
-        const sel=window.getSelection();const range=document.createRange();range.selectNodeContents(document.getElementById('email-card'));sel.removeAllRanges();sel.addRange(range);const ok=document.execCommand('copy');sel.removeAllRanges();
-        button.textContent=ok?'Copied — paste into Gmail':'Copy unavailable — use the browser preview';setTimeout(()=>button.textContent='Copy invitation for Gmail',3000);
-      }
-    }catch(err){button.textContent='Copy failed — try again';setTimeout(()=>button.textContent='Copy invitation for Gmail',3000);}
-  });
-})();
-</script>
 </body>
 </html>
